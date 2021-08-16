@@ -2,11 +2,13 @@
 *.lo
 *.la
 *.pyc
+*.inc
 .*.swp
 .libs/
 .deps/
 .dirstamp
 .ignore
+config/
 Makefile.in
 Makefile
 aclocal.m4
