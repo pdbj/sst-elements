@@ -88,6 +88,8 @@ class NicShmemCmdEvent : public NicCmdBaseEvent {
             return "Swap";
             case Cswap:
             return "Cswap";
+            default:
+            return "None";
         }
     }
 

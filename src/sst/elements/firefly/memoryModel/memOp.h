@@ -137,6 +137,7 @@
             case BusDmaFromHost: return "BusDmaFromHost";
             case HostBusWrite: return "HostBusWrite";
             case HostBusRead: return "HostBusRead";
+            default: return "None";
             }
         }
      private:

@@ -44,6 +44,8 @@ static std::string WaitOpName( WaitOp op ) {
 			return "GT";
 		case GTE:
 			return "GTE";
+	        default:
+		        return "None";
 	}
 }
 
