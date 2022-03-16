@@ -106,6 +106,8 @@ public:
     virtual void finish();
 
 private:
+    DMAEngine() : SST::Component(-1) {}; // For serialization
+
     bool clock(Cycle_t cycle);
 
     bool isIssuable(DMACommand *cmd) const;
